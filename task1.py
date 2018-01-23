@@ -2,7 +2,7 @@ import string
 dict1 = dict()
 def count_not_a_article():
 	count  = 0
-	file1 = open("Book-1.txt")
+	file1 = open("Book-1.txt") # opening the book
 
 	for line in file1:	
 		a = line.split()
